@@ -76,7 +76,9 @@ If no recognized module system is present, access bundle contents via the global
 ```html
 <script type="text/javascript">
 (function () {
+(function () {
     window.mean;
+})();
 })();
 </script>
 ```
@@ -132,6 +134,7 @@ y = mean( -0.1 );
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-rayleigh-mean@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
+(function () {
 
 var sigma;
 var y;
@@ -143,6 +146,7 @@ for ( i = 0; i < 10; i++ ) {
     console.log( 'σ: %d, E(X,σ): %d', sigma.toFixed( 4 ), y.toFixed( 4 ) );
 }
 
+})();
 })();
 </script>
 </body>
