@@ -69,7 +69,7 @@ where `σ > 0` is the scale parameter.
 ## Usage
 
 ```javascript
-import mean from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-rayleigh-mean@esm/index.mjs';
+import mean from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-rayleigh-mean@v0.3.1-esm/index.mjs';
 ```
 
 #### mean( sigma )
@@ -122,7 +122,7 @@ y = mean( -0.1 );
 
 import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-uniform@esm/index.mjs';
 import logEachMap from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each-map@esm/index.mjs';
-import mean from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-rayleigh-mean@esm/index.mjs';
+import mean from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-rayleigh-mean@v0.3.1-esm/index.mjs';
 
 var opts = {
     'dtype': 'float64'
