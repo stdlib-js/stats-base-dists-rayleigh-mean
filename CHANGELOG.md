@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-10-18)
+## Unreleased (2026-11-13)
 
 <section class="commits">
 
@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`78b35ec`](https://github.com/stdlib-js/stdlib/commit/78b35ec7001041bac96f249a7f713c7deec18b3b) - **refactor:** use `constants/float64/nan` in `stats/base/dists/rayleigh/mean` [(#16607)](https://github.com/stdlib-js/stdlib/pull/16607) _(by Karan Gupta)_
 -   [`ca49ceb`](https://github.com/stdlib-js/stdlib/commit/ca49ceb1e17979e0ecb77bc50dedd14b7515b46f) - **refactor:** rename internal variable [(#13167)](https://github.com/stdlib-js/stdlib/pull/13167) _(by Philipp Burckhardt)_
 -   [`437234c`](https://github.com/stdlib-js/stdlib/commit/437234c10dcf8d6024f59f98f18d5d19ecf49026) - **docs:** fix REPL text notes [(#12682)](https://github.com/stdlib-js/stdlib/pull/12682) _(by Philipp Burckhardt)_
 -   [`b517ce1`](https://github.com/stdlib-js/stdlib/commit/b517ce16f647ffe2270573dff57755fe7ba69027) - **docs:** propagate description and example fixes in `stats/base/dists/*` [(#12132)](https://github.com/stdlib-js/stdlib/pull/12132) _(by Philipp Burckhardt)_
@@ -29,9 +30,10 @@
 
 ### Contributors
 
-A total of 4 people contributed to this release. Thank you to the following contributors:
+A total of 5 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
+-   Karan Gupta
 -   Om Anand
 -   Philipp Burckhardt
 -   anee3
